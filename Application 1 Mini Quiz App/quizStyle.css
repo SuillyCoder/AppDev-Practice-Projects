@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto Slab', 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #E8F5F8 ;
+}
+.app{
+    background: #001e4d;
+    width: 90%;
+    max-width: 1100px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 70px;
+}
+.app h1{
+    font-size: 3.7rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.app h3{
+    text-align: center;
+    font-size: 32.5px;
+    color: #fff;
+    font-weight: 30px;
+    padding: 17px 0;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 25px;
+    padding: 17px 0;
+}
+.buttonAnswer{
+    background: #102F6A;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #102F6A;
+    padding: 20px;
+    margin: 13px 0;
+    text-align: left;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: all .35s;
+}
+.buttonAnswer:hover:not([disabled]){
+    color: #102F6A;
+    background-color: #fff;
+}
+.buttonAnswer:disabled{
+    cursor: no-drop;
+}
+.next{
+    background: #fff;
+    color: #001e4d;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 76px;
+    width: 245px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 17px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background: #0C9E09;
+    border-color: #16402B;
+}
+.incorrect{
+    background: #B8130C;
+    border-color: #421204;
+}
