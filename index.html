@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "listStyle.css">
+</head>
+<body>
+<div class="container">
+    <div class="toDoConsole">
+        <h2>CURRENT TASK LIST<img src = "Assets/Lightbulb.png"></h2>
+        <h4 id = "taskcount"></h4>
+        <div class="inputBar">
+            <input type="text" id="taskInput" placeholder = "Input task to tasklist">
+            <button onclick = "addTask()">Add Task</button>
+        </div>
+        <ul id = "taskList">
+        </ul>
+    </div>
+    <div class="resetBox">
+        <button onclick="countReset()">Reset Task Count</button>
+    </div>
+    
+</div>
+    
+    <script src = "listScript.js"></script>
+</body>
+</html>
