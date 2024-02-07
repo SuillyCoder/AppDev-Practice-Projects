@@ -20,7 +20,7 @@ function increase(){
     length++;
     countDisplay.innerHTML = "Current Password Length: " + length;
     if (length == 21){
-        alert("Password can only up to 20 characters");
+        alert("Password can only have up to 20 characters");
         length--;
         countDisplay.innerHTML = "Current Password Length: " + length;
     }

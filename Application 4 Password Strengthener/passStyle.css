@@ -3,7 +3,7 @@
 *{
     margin:0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
 }
 body{
@@ -50,6 +50,10 @@ body{
     width: 45px;
     cursor: pointer;
 }
+
+.display img:active{
+    transform:scale(0.9);
+}
 .display input{
     border: 0;
     outline: 0;
@@ -73,6 +77,10 @@ container button img{
     padding: 16px 26px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.container button:active{
+    transform:scale(0.9);
 }
 .buttonBox{
     width: 120%;
