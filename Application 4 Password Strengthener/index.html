@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "passStyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a<br><span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" id = "password" placeholder = "Input your Password">
+           <img src="file-copy-line.png" onclick="copyPass()">
+        </div>
+             <div class="buttonBox">
+                <button onclick = "increase()">Increase Password Length</button>
+                <button onclick = "createPassword()"><img src="bard-line.png"> Generate Password  </button>
+                <button onclick = "decrease()">Decrease Password Length</button>
+             </div>
+        <h2 class = "counter" id = "counter">Current Password Length: 12</h2>
+    </div>
+    <script src = "passScript.js"></script>
+</body>
+</html>
