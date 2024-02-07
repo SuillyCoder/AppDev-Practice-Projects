@@ -19,10 +19,20 @@ function createPassword(){
 function increase(){
     length++;
     countDisplay.innerHTML = "Current Password Length: " + length;
+    if (length == 21){
+        alert("Password can only up to 20 characters");
+        length--;
+        countDisplay.innerHTML = "Current Password Length: " + length;
+    }
 }
 function decrease(){
     length--;
     countDisplay.innerHTML = "Current Password Length: " + length;
+    if (length == 7){
+        alert("Password should be at least 8 characters");
+        length++;
+        countDisplay.innerHTML = "Current Password Length: " + length;
+    }
 }
 
 function copyPass(){

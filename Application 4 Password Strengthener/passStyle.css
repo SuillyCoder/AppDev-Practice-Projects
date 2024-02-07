@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -5,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #002339;
+    background-image: radial-gradient(#350E25, #4A1634 , #6F194B );
     color: #fff;
 }
 .container{
@@ -18,7 +20,7 @@ body{
     width: 120%;
     margin-top: 50px;
     margin-bottom: 30px;
-    background: #fff;
+    background: #871D5A;
     color: #ddd;
     display: flex;
     align-items: center;
@@ -29,12 +31,20 @@ body{
 .container h1{
     font-weight: 500;
     font-size: 45px;
+    color: #C0428A;
+    font-family: "Protest Strike";
+}
+.password{
+    font-size: 20px;
+    background-color: #871D5A;
+    color: #fff;
 }
 
 .container h1 span{
-    color: #019f55;
-    border-bottom: 4px solid #019f55;
+    color: #fff ;
+    border-bottom: 4px solid #fff ;
     padding-bottom: 7px;
+    font-family: "Protest Strike";
 }
 .display img{
     width: 45px;
@@ -54,7 +64,7 @@ container button img{
     width: 220px;
     border: 0;
     outline: 0;
-    background: #019f55;
+    background: #C0428A ;
     color: #fff;
     font-weight: 300;
     display: flex;
@@ -71,6 +81,6 @@ container button img{
     justify-content: space-evenly;
 }
 .counter{
-    color: #019f55;
+    color: #fff;
     margin-top: 50px;
 }
