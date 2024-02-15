@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="watchStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="titleBox">
+        <h1>Hour-Minute-Second</h1>
+        <h2>Stopwatch Timer</h2>
+    </div>
+    <div class="stopwatch">
+        <h1 id = "timeIndicator">00:00:00</h1>
+        <div class="buttons">
+           <img src="Logos/Stop.png" onclick = "stopTime()">
+           <img src="Logos/Play.png" onclick = "startTime()">
+           <img src="Logos/Reset.png" onclick = "resetTime()">
+        </div>
+    </div>
+    <div class="buttonBox">
+        <button class="lapCounter" onclick = "addLap()">Add Lap</button>
+        <button class="lapCounter" onclick = "clearLaps()">Clear Laps</button>
+    </div>
+    <div class="lapBox" id = "lapBox"></div>
+    <script src="watchScript.js"></script>
+</body>
+</html>
