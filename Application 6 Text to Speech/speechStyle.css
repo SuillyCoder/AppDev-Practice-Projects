@@ -10,10 +10,10 @@
 }
 
 .voicebox{
-    color: #fff;
+    color: #253C14;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg, #010758, #490d61);
+    background: linear-gradient(45deg, #4EA40F, #80CB49 , #B3DF91);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@
 textarea{
     width: 600px;
     height: 250px;
-    background: #403d84;
+    background: #4B6C34;
     color: #fff;
     font-size: 25px;
     border: 0;
@@ -61,7 +61,7 @@ textarea::placeholder{
     gap: 20px;
 }
 .button{
-    background: #ff2963;
+    background: #388300 ;
     color: #fff;
     font-size: 20px;
     font-weight: 300px;
@@ -79,10 +79,31 @@ textarea::placeholder{
 select{
     flex: 1;
     color: #fff;
-    background: #403d84;
+    background: #4B6C34;
     height: 50px;
     padding: 0 20px;
     outline: 0;
     border: 0;
     border-radius: 35px;
 }
+
+.slider {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;  
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-bottom: 30px;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background:    #367A04   ;
+    cursor: pointer;
+  }
