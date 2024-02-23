@@ -9,6 +9,7 @@
 <body>
 
     <div class="voicebox">
+        <br><br><br>
         <h1>Text to Speech Converter</h1>
         <h3>Hear your text come to life!</h3>
         <textarea id = "textarea" placeholder = "Input your text here: "></textarea>
@@ -16,8 +17,14 @@
             <select id = "voiceSelector"></select>
             <button class="button" id = "button">Take a Listen!</button>
         </div>
+        <br><br>
+        <h3>Volume Adjuster</h3>
+        <div class="slider">
+            <input type = "range" min = "1" max = "100" value = "50" class = "slider" id = "volumeRange">
+        </div>
+    
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.0/"></script>
     <script src="speechScript.js"></script>
 </body>
 </html>
